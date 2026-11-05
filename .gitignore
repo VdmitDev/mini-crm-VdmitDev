@@ -1,0 +1,25 @@
+# Зависимости и сборка
+node_modules
+dist
+*.tsbuildinfo
+
+# Переменные окружения: настоящие значения не коммитим, шаблон лежит в .env.example
+.env
+.env.*
+!.env.example
+
+# Служебные файлы Supabase CLI
+supabase/.temp
+supabase/.branches
+
+# Деплой
+.vercel
+.netlify
+
+# Логи и мусор редакторов
+*.log
+npm-debug.log*
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
